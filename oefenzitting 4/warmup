@@ -1,0 +1,18 @@
+1. explain why it is important to specify the precondition and postcondition of an algorithm
+You always need something to proof, we want to proof that for a precondition and postcondition that the algorithm works.
+
+2. What is an invariant ? Why do you need it ?
+A condition that must be true after every loop and is correct just before the loop gets executed.
+it is needed to proof the post-condition
+
+3. How so you find an invariant ?
+You want a condition that includes all the variables and that is true for every iteration of the while loop.
+
+4. Why do you need to prove finiteness if you have already proven the steps related to the invariant (Steps 3.1-4)?
+So that we know if we ever leave the while loop and that we get to our postcondition.
+
+5. How does a variant help to prove finiteness ?
+it shows a monotone decrease so we get closer to the stopcondition
+
+6. How do you find a variant ?
+Choose a condition that shows a monotone progression towards the stopcondition
