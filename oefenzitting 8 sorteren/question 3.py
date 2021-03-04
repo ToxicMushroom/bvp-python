@@ -4,7 +4,7 @@ def bubble_sort(lijst):
         return
     while not gesorteerd:
         previous = lijst[0]
-        i = 0
+        i = 1
         cancel = False
 
         while not cancel:
